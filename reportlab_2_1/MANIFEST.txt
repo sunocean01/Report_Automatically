@@ -1,0 +1,303 @@
+#signed c:\temp\ReportLab_tmp\rlbuild_area\dist\reportlab_2_1\MANIFEST.txt for ReportLab_2_1 in c:\temp\ReportLab_tmp\rlbuild_area\dist\reportlab_2_1 generated on yosemite at Thu May 24 11:54:12 2007
+reportlab\changes	723f9a7f4de64b66f8ac0ba369496394
+reportlab\license.txt	5f3d4800c77792e8f0a1f73fb03f309a
+reportlab\MANIFEST.in	270cc318167981163992f7b409a830fe
+reportlab\README	055641bd1d50e29b99f1de5d20b0b4fd
+reportlab\rl_config.py	10df7c7943754b247c41f119179fbe6d	# 3072 2007-04-23 10:09:53Z
+reportlab\setup.py	b8c03627c146cff756bf9e4e3570bf87	# 3008 2007-01-12 11:31:47Z
+reportlab\__init__.py	d910c43397c623e52960be0799ae2ea8	# 3093 2007-05-24 10:08:18Z
+reportlab\demos\colors\colortest.py	a6acda72723579d86c5262a00d5376bd
+reportlab\demos\gadflypaper\00readme.txt	7fb9502ad75dd040576231210cd62f71
+reportlab\demos\gadflypaper\gfe.py	f1755c8e8f2652b495805207722c6bea	# 2385 2004-06-17 15:26:05Z
+reportlab\demos\odyssey\00readme.txt	a516d67e2cacc8a774add40d215a66b5
+reportlab\demos\odyssey\dodyssey.py	5378bd5886bc478287400d533b107e6d	# 2856 2006-05-11 09:48:13Z
+reportlab\demos\odyssey\fodyssey.py	0375b58d14bea7df862ac923cd19e4e2	# 2385 2004-06-17 15:26:05Z
+reportlab\demos\odyssey\odyssey.py	2fc5bdc94d7070a4a8ac1767fac764e9	# 2385 2004-06-17 15:26:05Z
+reportlab\demos\odyssey\odyssey.txt	93d4b6d292ec0955708ba5078be19e33
+reportlab\demos\rlzope\readme.txt	52b1047912c6ce821f520e87a324f99b
+reportlab\demos\rlzope\rlzope.py	d633f5cc3da1a49c4ee5b3c4ff6bf88a
+reportlab\demos\stdfonts\00readme.txt	580923fe838d89af8fca55ff61d2c19c
+reportlab\demos\stdfonts\stdfonts.py	7adfd22912026965addcce7cb488d694	# 2830 2006-04-05 15:18:32Z
+reportlab\demos\tests\testdemos.py	1d0428533c26bbbb21877425886805d6	# 2385 2004-06-17 15:26:05Z
+reportlab\docs\00readme.txt	517f038abaeb71fb5ba9b9f4f4d22651
+reportlab\docs\diagradoc.pdf	fbaa7f2f37f01f5c0cf417a79b741d4b
+reportlab\docs\genAll.py	d2a04a9013170e6f445f7d300ad55ac0
+reportlab\docs\graphguide.pdf	a9b3445914691d9feff0721e20f7fbfd
+reportlab\docs\graphics_reference.pdf	acad660847d11c2969c45815bce9709d
+reportlab\docs\reference.pdf	e5f98498312620689cfd7e3665fe2718
+reportlab\docs\RML_UserGuide.pdf	87e9796b027774e241f28acd33b12e79
+reportlab\docs\userguide.pdf	41c415f0ea5f7b15a67a0202c931b080
+reportlab\docs\graphguide\ch1_intro.py	2713eebb86c81af5e98db627abc2e794
+reportlab\docs\graphguide\ch2_concepts.py	501dc752721dd853ecf32d6a85a5650f
+reportlab\docs\graphguide\ch3_shapes.py	98e2a96a6f8929f69ced5812a6311ee8
+reportlab\docs\graphguide\ch4_widgets.py	2c85b5484a2162350d8bbd24ba0c0417
+reportlab\docs\graphguide\ch5_charts.py	78597cd74d7dadcbab3dfbcfffcfb1cd
+reportlab\docs\graphguide\gengraphguide.py	815c528b460a0153840735ff981612b3	# 2385 2004-06-17 15:26:05Z
+reportlab\docs\images\Edit_Prefs.gif	7d6db7f557ad62a45b6b4e14cff10e32
+reportlab\docs\images\fileExchange.gif	f13deba4802554d6388700733bae4b9d
+reportlab\docs\images\jpn.gif	232ca06154a8a6427e59f23745fcd78b
+reportlab\docs\images\jpnchars.jpg	d3924541f55285d5e55fc8fcf5d586b6
+reportlab\docs\images\lj8100.jpg	dba3748020170b586ecba1565ee59d28
+reportlab\docs\images\Python_21.gif	f3e9c029f4afae3ed26390bc78bb8b7a
+reportlab\docs\images\Python_21_HINT.gif	d86c34a59b5d8a94bd1acc81c2240f9e
+reportlab\docs\images\replogo.a85	c12d85938c8ecb7180f890660bcba223
+reportlab\docs\images\replogo.gif	cd50efb85188c8944b5cf4cb2e40eb05
+reportlab\docs\reference\build.bat	38a2136c92108442dd773293cfa9936a
+reportlab\docs\reference\genreference.py	8d7ccf5f0cf5166d83e7eeb575a79821	# 2385 2004-06-17 15:26:05Z
+reportlab\docs\reference\reference.yml	a9d4b443326a63329f6c8d2b79bfb388
+reportlab\docs\userguide\app_demos.py	d97c312bfc807569121253151d7049c4
+reportlab\docs\userguide\ch1_intro.py	bb23a7ccb7eaca60c5806b51d2d571d6
+reportlab\docs\userguide\ch2a_fonts.py	78f54d0ec023dcd965c52a04077f7949
+reportlab\docs\userguide\ch2_graphics.py	33b4162dca1d25d27af8ff9d511794bb
+reportlab\docs\userguide\ch3_pdffeatures.py	77a1071114e78d53d0a3d6e447e27d70
+reportlab\docs\userguide\ch4_platypus_concepts.py	cbd54aab873fb56108a7d9df415d5c1b
+reportlab\docs\userguide\ch5_paragraphs.py	bf051e78117b86265ad70819b9129593
+reportlab\docs\userguide\ch6_tables.py	24a1d86adf6e7561ab337bfbe6285ed6
+reportlab\docs\userguide\ch7_custom.py	574cd4147bcc1d0fa3e7f8d9b3fa5629
+reportlab\docs\userguide\ch9_future.py	20069cefeacaf4441adb35e8bc51e4df
+reportlab\docs\userguide\genuserguide.py	2c95bbd43030416b89eadcdfbf1a652d	# 2900 2006-05-22 21:49:00Z
+reportlab\docs\userguide\testfile.txt	f945b516413f825e1308141e872a3c7a
+reportlab\extensions\README	aff8ba9fea8da964450740c28af1333a
+reportlab\extensions\__init__.py	fdcc8e12b4eb89d63eaadbd435dec2f4	# 2385 2004-06-17 15:26:05Z
+reportlab\fonts\00readme.txt	0ea847a2796dc52101b14020135e644c
+reportlab\fonts\bitstream-vera-license.txt	054d28573db91e4b10d1de7d39e71569
+reportlab\fonts\LeERC___.AFM	6fe2064100ae97f829def010c1585767
+reportlab\fonts\LeERC___.PFB	f8e458df64390e0b8eb60d14cb5044b5
+reportlab\fonts\luxiserif.ttf	2f33d3268efcee697173163a97809ad8
+reportlab\fonts\luxiserif_license.txt	a3bb68182c3128cc7bd6b4f3e6b96ba7
+reportlab\fonts\rina.ttf	7c3ea7f73bd07ca46b60a85d4390e323
+reportlab\fonts\rina_license.txt	69600b1a8a8961fc432b0751e27c22cc
+reportlab\fonts\Vera.ttf	785d2fd45984c6548763ae6702d83e20
+reportlab\fonts\VeraBd.ttf	4ebf664c986099acf6d151c62bdb24eb
+reportlab\fonts\VeraBI.ttf	a99f3482bfc2d9c37b509e68d20d016a
+reportlab\fonts\VeraIt.ttf	06ee45608b225ef0f22e94995bc981b2
+reportlab\graphics\renderbase.py	8e1069d7e2a640be7d33ead2c7750148
+reportlab\graphics\renderPDF.py	2bb2844ae165349ae62fbdade0985d18	# 2959 2006-08-18 13:09:15Z
+reportlab\graphics\renderPM.py	2c76cfe5db3b5d7ce1f940f3eee30e38	# 3091 2007-05-23 16:12:00Z
+reportlab\graphics\renderPS.py	a52a8d3725053f9c152dd1e888981898	# 3082 2007-05-11 15:38:07Z
+reportlab\graphics\renderSVG.py	57699e162babb6a823511debc9313dd0
+reportlab\graphics\shapes.py	6193103dcc9f480c8faa0cceebac3515	# 3089 2007-05-23 11:45:58Z
+reportlab\graphics\testdrawings.py	25c428303f0385d22e926483c7e7e761
+reportlab\graphics\testshapes.py	d9511d3c129c06f92277daa6aeda4714
+reportlab\graphics\widgetbase.py	3219f927f6a489de380cfb1a05a7c086	# 3061 2007-04-12 12:06:31Z
+reportlab\graphics\__init__.py	843f3b7820d95d56628ad3e112b92c4a	# 2385 2004-06-17 15:26:05Z
+reportlab\graphics\barcode\code128.py	c455d7c6fcbcb274ad0c7aef085700cf
+reportlab\graphics\barcode\code39.py	b01140bb3f77959096382b83f5da9db8
+reportlab\graphics\barcode\code93.py	773e19216c14c090a65527facc302c52
+reportlab\graphics\barcode\common.py	cba574d6af15dcc3dd596cd70b99f87a
+reportlab\graphics\barcode\eanbc.py	3ebd13f8a29648ca85cf7d61455ec7bc
+reportlab\graphics\barcode\fourstate.py	1ed665f823b807ff3cf6556684b3b7b7
+reportlab\graphics\barcode\README	1677b89d4772a8c0b558ab9477e8bfa7
+reportlab\graphics\barcode\test.py	f3eb8020b78f6707002915b162fbc30c
+reportlab\graphics\barcode\TODO	136b2b3b709077428dab542dc84bfe74
+reportlab\graphics\barcode\usps.py	5aa92e0aa2961ce6f119ca335a942f9f
+reportlab\graphics\barcode\usps4s.py	bfb9a603842427292e3c29d4c2f3fdba	# 2966 2006-08-31 15:20:29Z
+reportlab\graphics\barcode\VERSION	21b6c9bcd8676966949302daeae80358
+reportlab\graphics\barcode\widgets.py	bbc0e02aad9b716ad44190de19c951f1	# 3086 2007-05-22 13:10:34Z
+reportlab\graphics\barcode\__init__.py	acaf9670da98a04104bc4adc08b7abe9
+reportlab\graphics\charts\areas.py	055b7ca3583467e3549619ec887016ca	# 2385 2004-06-17 15:26:05Z
+reportlab\graphics\charts\axes.py	0acdf645aca33d21efb0c0de712ad185	# 3078 2007-05-08 12:02:33Z
+reportlab\graphics\charts\barcharts.py	90233438756f90391068b9177ab0aa75	# 2996 2006-10-31 13:23:02Z
+reportlab\graphics\charts\dotbox.py	86e31f042ba1915dedbaee7c2f09acc0
+reportlab\graphics\charts\doughnut.py	018bfeb4651b09da3d33fb69a28ccd31	# 2499 2004-12-29 17:12:34Z
+reportlab\graphics\charts\legends.py	b7db1e7c4352dd67e0d10f5c9a18ea10	# 3055 2007-03-21 15:42:22Z
+reportlab\graphics\charts\linecharts.py	b007c6398c3591c3d2f7230533f99c38	# 2996 2006-10-31 13:23:02Z
+reportlab\graphics\charts\lineplots.py	e7d0fb6895fae82362b9183e1733c789	# 2996 2006-10-31 13:23:02Z
+reportlab\graphics\charts\markers.py	84c93186f2e999ed0fda04b20694d8c6	# 2385 2004-06-17 15:26:05Z
+reportlab\graphics\charts\piecharts.py	e8273459e40c01725518b0416e40dc26	# 3021 2007-01-22 14:33:59Z
+reportlab\graphics\charts\slidebox.py	b10d0a4e81ba6a094146471c9835b608
+reportlab\graphics\charts\spider.py	efb1f10a53b0d4dab9c173053c0dee62	# 2676 2005-09-06 10:25:00Z
+reportlab\graphics\charts\textlabels.py	ff1b35e0bb4c22c0a0e720cfa4902c72	# 2998 2006-11-03 12:47:25Z
+reportlab\graphics\charts\utils.py	8ec9a9d828b6586d1444808a8d637b01	# 2385 2004-06-17 15:26:05Z
+reportlab\graphics\charts\utils3d.py	227a6360f9806f0c45a788b4f4fc28f6
+reportlab\graphics\charts\__init__.py	a9f338e64e86536cd876e1151d9f27b2	# 2385 2004-06-17 15:26:05Z
+reportlab\graphics\samples\bubble.py	6c66674a3feab00a4fd840b1102194c3
+reportlab\graphics\samples\clustered_bar.py	5a4c4f479ec66abbe922f7d722ad268b
+reportlab\graphics\samples\clustered_column.py	5f0936845e8505227cda06a0ed962a8e
+reportlab\graphics\samples\excelcolors.py	7dc7cf1bcb9a4de5e23ecce98aaf154c
+reportlab\graphics\samples\exploded_pie.py	bc8b89e7c4f68bf3c6974bf61b83f66a
+reportlab\graphics\samples\filled_radar.py	041b6f6bd5e199de1344dbfc6555118f
+reportlab\graphics\samples\linechart_with_markers.py	d78492d8505396b0d02c4b1a3d7a0290
+reportlab\graphics\samples\line_chart.py	068d87aede3e1fa9e54f1315d931d73e
+reportlab\graphics\samples\radar.py	7bb7523fac88896534c9cc0ca0e564cb
+reportlab\graphics\samples\runall.py	6c1ef9934fab3272f184609fdaf66814
+reportlab\graphics\samples\scatter.py	55d44981888f0a9581318cecd26dff38
+reportlab\graphics\samples\scatter_lines.py	b141712943af4c934de388b1d17e5379
+reportlab\graphics\samples\scatter_lines_markers.py	ca670a61d23d62ff2a51b623386050c1
+reportlab\graphics\samples\simple_pie.py	72d942026a78097a5498f83a3cfa4af2
+reportlab\graphics\samples\stacked_bar.py	5c84a491a073f261f0fc6b4f73919efd
+reportlab\graphics\samples\stacked_column.py	271c898bce2894b2f69631b8ba5ffa7b
+reportlab\graphics\samples\__init__.py	d41d8cd98f00b204e9800998ecf8427e
+reportlab\graphics\widgets\eventcal.py	9852e7964884996c9e56ccc0fd63e3b7	# 2385 2004-06-17 15:26:05Z
+reportlab\graphics\widgets\flags.py	527a6ae6a1c3bbfd000db81ec1620858	# 2385 2004-06-17 15:26:05Z
+reportlab\graphics\widgets\grids.py	c3cfd119e9899954af81504a567a664a	# 2385 2004-06-17 15:26:05Z
+reportlab\graphics\widgets\markers.py	96fdfeccf3f6f150e63cbb97f66128b4	# 2385 2004-06-17 15:26:05Z
+reportlab\graphics\widgets\signsandsymbols.py	6b828764cc33be930b6baaf4b42556ed	# 2385 2004-06-17 15:26:05Z
+reportlab\graphics\widgets\__init__.py	d900814e14ebef3b102f94b40ca838cc	# 2385 2004-06-17 15:26:05Z
+reportlab\lib\abag.py	88e8395ce481c22105dae3b582d2339a	# 3004 2006-12-19 14:50:51Z
+reportlab\lib\attrmap.py	5e4f9b8c11893032b8254e20645b3d2a	# 2741 2005-12-07 21:52:33Z
+reportlab\lib\boxstuff.py	15149d7d76c561ff0abbcd8a4390b031	# 2960 2006-08-23 21:41:33Z
+reportlab\lib\codecharts.py	bf8a6825cd02da6cf498d4ff8b24bd5b
+reportlab\lib\colors.py	e379be89eb86e868b5a8d1264204800d	# 3001 2006-11-17 11:44:21Z
+reportlab\lib\corp.py	850e8d4cddedb71339dab2f1b492b28c	# 2484 2004-12-10 07:27:50Z
+reportlab\lib\enums.py	f0ed8a4a6ccdb3e97704c7bdb479afe3	# 2385 2004-06-17 15:26:05Z
+reportlab\lib\extformat.py	b618ea402e3590ae5a82e556050bca1a
+reportlab\lib\fontfinder.py	846da0a171f7a65950c940cf04d50abd	# 3085 2007-05-22 01:42:00Z
+reportlab\lib\fonts.py	f4faa1168d94890311914b946d9547f3	# 2385 2004-06-17 15:26:05Z
+reportlab\lib\formatters.py	a9496bdbf2571d82640f956499f32ceb	# 2385 2004-06-17 15:26:05Z
+reportlab\lib\logger.py	e5ce05828da887106d5db2122d54b300	# 2385 2004-06-17 15:26:05Z
+reportlab\lib\normalDate.py	8d97647490177c4153825315e4aa3e15	# 2742 2005-12-12 11:58:08Z
+reportlab\lib\pagesizes.py	921e9545fd0c5815bea7a68d058fef01	# 2385 2004-06-17 15:26:05Z
+reportlab\lib\PyFontify.py	414ee1c8370766ccbd76127985e092c7
+reportlab\lib\randomtext.py	32b8a0b26b92657b90c5d80814c89b8f	# 2436 2004-09-11 14:18:33Z
+reportlab\lib\rltempfile.py	e1e997689d9f07bf99c88a46453c07bf	# 2892 2006-05-19 14:16:02Z
+reportlab\lib\rparsexml.py	b74ca5928939e4e11af76da6f68bab9f
+reportlab\lib\sequencer.py	596145eef7dd5e7fe5987acf60e25810	# 3052 2007-03-07 14:04:49Z
+reportlab\lib\set_ops.py	fe312215edcdb0bbb4936a8f5e8c441b
+reportlab\lib\styles.py	a0e3c34ff733c7bf67c1efb614d52457	# 3043 2007-02-19 11:17:23Z
+reportlab\lib\textsplit.py	d6ddf0c70047ae42d306d81aee2e014e	# 2833 2006-04-05 16:01:20Z
+reportlab\lib\tocindex.py	818ef5a61f9271aef1180e7339f2aa2e	# 2385 2004-06-17 15:26:05Z
+reportlab\lib\units.py	ece11981cdf5008f5fa858a61e2c82fc	# 2524 2005-02-17 08:43:01Z
+reportlab\lib\utils.py	a78be034810042386f7f45049ca6cc83	# 3079 2007-05-09 17:14:49Z
+reportlab\lib\validators.py	e550b559f63b46a518d763851745f9fd	# 3060 2007-04-12 11:29:55Z
+reportlab\lib\xmllib.py	3199474cb376fee874ebc3f1253b3c95
+reportlab\lib\yaml.py	07945b51e9a1714dd48af994f3ee5e45	# 2385 2004-06-17 15:26:05Z
+reportlab\lib\__init__.py	94cf2d6edb6a7039b582ddd27f832341	# 2385 2004-06-17 15:26:05Z
+reportlab\pdfbase\cidfonts.py	56a727626b04de5412a98c3811b947fe	# 2959 2006-08-18 13:09:15Z
+reportlab\pdfbase\pdfdoc.py	42e851575af77e94b5e9d462656526e1	# 3083 2007-05-14 16:05:04Z
+reportlab\pdfbase\pdfform.py	79ef305d75231abf41f8a16f51c5ff53
+reportlab\pdfbase\pdfmetrics.py	c19bc85c5620ab00f87e6068653b7151	# 3052 2007-03-07 14:04:49Z
+reportlab\pdfbase\pdfpattern.py	f5a6ad173138c657d063911cbe96926c
+reportlab\pdfbase\pdfutils.py	9013507da7835f79f9da515357250aaa	# 3052 2007-03-07 14:04:49Z
+reportlab\pdfbase\rl_codecs.py	ce0d773c92977d307633d0eeab807392
+reportlab\pdfbase\ttfonts.py	618bc515372b79eedb7129211e2d797c
+reportlab\pdfbase\_can_cmap_data.py	d5b4bbbc9257ccdcadaa78a80aab8b9b
+reportlab\pdfbase\_cidfontdata.py	f3930ad12609381383507fb246fd0792	# 2901 2006-05-22 23:02:22Z
+reportlab\pdfbase\_fontdata.py	e80b97744c36e0e21adafed13d1dd2de	# 3052 2007-03-07 14:04:49Z
+reportlab\pdfbase\__init__.py	c388f49c76402f9a75b1b32407abcbb7	# 2385 2004-06-17 15:26:05Z
+reportlab\pdfgen\canvas.py	11317850682fe8d75d044bce363544dc	# 3063 2007-04-13 09:52:08Z
+reportlab\pdfgen\pathobject.py	a1382c162e2a5e344845be531d9ad609	# 2537 2005-03-15 14:19:29Z
+reportlab\pdfgen\pdfgeom.py	08898a2395ce82a647821b5117082100	# 2385 2004-06-17 15:26:05Z
+reportlab\pdfgen\pdfimages.py	2f9406313998070e3d722ce54ba72934	# 2961 2006-08-23 22:27:37Z
+reportlab\pdfgen\pycanvas.py	681ca8a21a68d429c921533817371b51	# 1821 2002-11-06 17:11:31Z
+reportlab\pdfgen\textobject.py	08509d8310e0ea7212cc7f4e27829847	# 2959 2006-08-18 13:09:15Z
+reportlab\pdfgen\__init__.py	34c0f7f864d95a9d7ddd5e5f8d61ed9b	# 2385 2004-06-17 15:26:05Z
+reportlab\platypus\doctemplate.py	fd3da007b72ca56e0325d4bc57c3e938	# 3047 2007-02-23 17:45:16Z
+reportlab\platypus\figures.py	fa157bc21851ed8653d771ea0b7a9a97	# 2969 2006-09-07 14:57:53Z
+reportlab\platypus\flowables.py	26accac4734a196a9dc8c05d1f43d366	# 3073 2007-04-26 16:17:37Z
+reportlab\platypus\frames.py	da7bb694f05ea05add4e72ba4233c159	# 3020 2007-01-19 15:42:55Z
+reportlab\platypus\para.py	4654eccf646508732162cbe892278444
+reportlab\platypus\paragraph.py	98f325b45d7f8b1bccbef8dd583f7279	# 3076 2007-05-03 19:43:03Z
+reportlab\platypus\paraparser.py	79e9790d582adb28db81eea23fac1d7c	# 3033 2007-01-29 18:30:51Z
+reportlab\platypus\tableofcontents.py	154df1d1e2b8e117867dbdc9e079078e	# 2385 2004-06-17 15:26:05Z
+reportlab\platypus\tables.py	4c251219b281374a568b291cf8d8db56	# 3039 2007-02-12 15:09:09Z
+reportlab\platypus\xpreformatted.py	751b352232f2e023dda1454fcab78952	# 2426 2004-09-02 11:52:56Z
+reportlab\platypus\__init__.py	98d9970d7f6978f4e40940b4f52140b8	# 3047 2007-02-23 17:45:16Z
+reportlab\test\00readme.txt	a6a3e4c321e5ea6f346fedd93d7ed429
+reportlab\test\pythonpowered.gif	95d5eae90b5392e5cae11d4bead1d00d
+reportlab\test\runAll.py	52022d28648c06178067bdff4fddfd9a
+reportlab\test\test_charts_textlabels.py	4c6ae264a1064c307908f19e514b48f3
+reportlab\test\test_docstrings.py	e1a0a6c84671d93ff11c38d19ee3fb83
+reportlab\test\test_docs_build.py	e72b5dbf9cdc58e78c48f34929f91e5e
+reportlab\test\test_extra.py	798b7e5af9892c3f3c64da7a9e6d104c
+reportlab\test\test_graphics_charts.py	744ad938d5bba5dbfd1778994fd365ff
+reportlab\test\test_graphics_images.py	eafc1b82c6de8ddbe4ca71ec3760151b
+reportlab\test\test_graphics_layout.py	98f8a103871062319b871d6e163807ca
+reportlab\test\test_graphics_speed.py	1d40ccaecdd962ef551291e41d625d26
+reportlab\test\test_hello.py	2745b2a1f9ab0e25458f806aaa221937
+reportlab\test\test_images.py	ad1fd62e3cb3196f53c6ed69f97b126f
+reportlab\test\test_invariant.py	a5be978c0f615ac1c40908cf01444b77
+reportlab\test\test_lib_colors.py	9ba92845ac4122725bc720059504b9a6
+reportlab\test\test_lib_sequencer.py	e0b35df94adaea47b7f642f0f5389e87
+reportlab\test\test_lib_utils.py	0e76d13d11aa6430aa45d732b74cabf9
+reportlab\test\test_lib_validators.py	4d10730f92ae08703eea19513cf7236b
+reportlab\test\test_multibyte_chs.py	c379a4f7c7c4680735ac41818605124b
+reportlab\test\test_multibyte_cht.py	8cc55f79a2575f9f9feadce55879c8c5
+reportlab\test\test_multibyte_jpn.py	b094c9f6827ff3a6bf96db66a5580817
+reportlab\test\test_multibyte_kor.py	f1049fc985cc65a14e2cdfb2255e4217
+reportlab\test\test_paragraphs.py	b1d2cacb1ccd2b83105056ab7f13e1bd
+reportlab\test\test_pdfbase_encodings.py	10e6d8bb7b5b81aee347381663ca86a7
+reportlab\test\test_pdfbase_fontembed.py	fe7d5f161b83c01d94b29eaedfa7c6cf
+reportlab\test\test_pdfbase_pdfmetrics.py	6ad3b5d34976f3ecea5617b360248798
+reportlab\test\test_pdfbase_pdfutils.py	497c5b240a2c861a09d0e8a327b6cb67
+reportlab\test\test_pdfbase_postscript.py	7a5036740ff74399b993db2765efc7af
+reportlab\test\test_pdfbase_ttfonts.py	617f6c9022430134ffaec4589dc30812
+reportlab\test\test_pdfgen_callback.py	cd21bc9c6da40541d1943804142947db	# 2619 2005-06-24 14:49:15Z
+reportlab\test\test_pdfgen_general.py	2c075959377e6915c0dc5f2bb08a0b7a	# 3022 2007-01-23 12:25:26Z
+reportlab\test\test_pdfgen_links.py	b6c9bcb3c4a559d9a7ab085c5f75eb14
+reportlab\test\test_pdfgen_pagemodes.py	954d681d058c6f1e061b3302bca0b299
+reportlab\test\test_pdfgen_pycanvas.py	11550b6307894cc2c3704ec905912700	# 2619 2005-06-24 14:49:15Z
+reportlab\test\test_platypus_breaking.py	dd1d95e8372a079b2038e1b3fbeeb9a4
+reportlab\test\test_platypus_general.py	8c810013d9c230c04ed42667a5962782	# 2619 2005-06-24 14:49:15Z
+reportlab\test\test_platypus_indents.py	450f505acceb09aba7635653cafd10b7
+reportlab\test\test_platypus_leftright.py	0b8dc4cd1e074222a07dfb5fb4ccb870
+reportlab\test\test_platypus_paragraphs.py	d0e3d332b51cb1379bd1ac032c815b63
+reportlab\test\test_platypus_paraparser.py	ea9335a91a4181900bf37d4c54f2c1be
+reportlab\test\test_platypus_pleaseturnover.py	d31f35e191f6a13871311fc5e287b6eb
+reportlab\test\test_platypus_tables.py	dc59f96da88fb2f9c99afae89ee0f6a4	# 2848 2006-05-04 23:45:29Z
+reportlab\test\test_platypus_toc.py	fdda35354fdb9e475db5fe39087e2045
+reportlab\test\test_platypus_xref.py	fc4aaada64c96ce24981dd611cc894e2
+reportlab\test\test_pyfiles.py	a690b0084c9838f8ae5341647998f8ce
+reportlab\test\test_renderSVG.py	79752ec0b551eab33e87db1098b6006c
+reportlab\test\test_rl_accel.py	b5de5378843de559f60f4183e4eb0635
+reportlab\test\test_source_chars.py	ad5de972309b8fdc786ca86e7e95f76e
+reportlab\test\test_table_layout.py	f7552f20f8831bda90be6f0a63bf28af
+reportlab\test\test_tools_pythonpoint.py	70471dc75267b9412641911f60306141
+reportlab\test\test_utils.py	1e8de7fdbc97c3f17a13bc77ec457480
+reportlab\test\test_widgetbase_tpc.py	b560b98439eab2983e63e4d05567ab49
+reportlab\test\test_widgets_grids.py	d3f5033372fb619da3e0d2c5358e77d4
+reportlab\test\unittest.py	e81966d49a2a799b642a3a45f972520e
+reportlab\test\utils.py	a277bc104aabda40e33010f8fb2f13ea
+reportlab\test\__init__.py	937c9adfcd31bfb090b1460b04f53ef5
+reportlab\tools\README	873cbf93b7cf81816bb03f8e745e88ee
+reportlab\tools\__init__.py	292c62c0f2c4ccba80c8de0b3ec95b3d
+reportlab\tools\docco\codegrab.py	687fb049e86f73569cbba1f5ea87c1b3
+reportlab\tools\docco\docpy.py	a7f529127d19bdbd65678b8c47060651
+reportlab\tools\docco\examples.py	06c1e9cefc6c0ad524a76babb2e3f78f
+reportlab\tools\docco\graphdocpy.py	d3b850cfc272e070a93e702ce866b0cd
+reportlab\tools\docco\README	372a2449f01a463e588c5f121c3465c2
+reportlab\tools\docco\rltemplate.py	e6aa78f3ffbcd03ed0f3f8bd322b385d
+reportlab\tools\docco\rl_doc_utils.py	e7777f2f29a3903a5e976362bb1c3ba2	# 2830 2006-04-05 15:18:32Z
+reportlab\tools\docco\stylesheet.py	99ffb81e35c83718f4cdbd7f84fe6f0d
+reportlab\tools\docco\t_parse.py	ad39efb1ff97e037248b532075627ddc
+reportlab\tools\docco\yaml.py	d604aefe8b0c0b8ff5396d115b3dd7b9
+reportlab\tools\docco\yaml2pdf.py	84690458c76977070657d8fa70cb338d
+reportlab\tools\docco\__init__.py	621f308fc809218e050c3316f47674c1
+reportlab\tools\py2pdf\demo-config.txt	dd94682a192a79ccd19c8ffac61bdb0f
+reportlab\tools\py2pdf\demo.py	8e49be46377599f28fcea548cb0fee88
+reportlab\tools\py2pdf\idle_print.py	4943fca6f76fcd56c581d21f3bd6f013	# 2385 2004-06-17 15:26:05Z
+reportlab\tools\py2pdf\py2pdf.py	b78c567241fb6c1ae80ee8cfbba89d3b
+reportlab\tools\py2pdf\README	1bca4189b4d925d24865ed4142b33d8c
+reportlab\tools\py2pdf\vertpython.jpg	5b8c102509b3a4581b57e1e2da5bb0d1
+reportlab\tools\py2pdf\__init__.py	46d50d67a9b84be60edef278a3993723
+reportlab\tools\pythonpoint\customshapes.py	116bbeebff973e21573c111d2741018c	# 2385 2004-06-17 15:26:05Z
+reportlab\tools\pythonpoint\pythonpoint.dtd	cf46f39d1ba4504925917f1e7a63872e
+reportlab\tools\pythonpoint\pythonpoint.py	a79560f20e8f1179a3ab80aaee59f33d
+reportlab\tools\pythonpoint\README	88ae2b94fd91ff256eb51128a3f21061
+reportlab\tools\pythonpoint\stdparser.py	87bf5cf12735982800b9ec23c4ac5159
+reportlab\tools\pythonpoint\__init__.py	dd1f0750e589af7436ab3265e09ffc9d
+reportlab\tools\pythonpoint\demos\examples.py	eac60cb3a2d445d82d5f3706dce8e226
+reportlab\tools\pythonpoint\demos\figures.xml	74bf12a434d393b6fd7385b3472251b9
+reportlab\tools\pythonpoint\demos\htu.xml	c7648264816dded886861541ea0e9914
+reportlab\tools\pythonpoint\demos\LeERC___.AFM	6fe2064100ae97f829def010c1585767
+reportlab\tools\pythonpoint\demos\LeERC___.PFB	f8e458df64390e0b8eb60d14cb5044b5
+reportlab\tools\pythonpoint\demos\leftlogo.a85	780d3ea4c61e16f160f35a81453087ef
+reportlab\tools\pythonpoint\demos\leftlogo.gif	cf0bc3c5f6d550119b540788b3bbc512
+reportlab\tools\pythonpoint\demos\lj8100.jpg	dba3748020170b586ecba1565ee59d28
+reportlab\tools\pythonpoint\demos\monterey.xml	567b787ee6465125b0b2008ca22a480e
+reportlab\tools\pythonpoint\demos\outline.gif	9fee7c7ba75494cd3d5565edfdfef674
+reportlab\tools\pythonpoint\demos\pplogo.gif	acbc004cf396333f86d836d5462b2682
+reportlab\tools\pythonpoint\demos\python.gif	55610299c25a965810eb5b34c34f7606
+reportlab\tools\pythonpoint\demos\pythonpoint.xml	71e5cb2adf15edb439fa1d2c6e86fd36
+reportlab\tools\pythonpoint\demos\slidebox.py	96f6154dcf51df35b71979dc636e229e
+reportlab\tools\pythonpoint\demos\spectrum.png	b2c463b7e52a15b6982c1ef2cbfb0511
+reportlab\tools\pythonpoint\demos\vertpython.gif	b8cf56225afa25a2a6a7afc4a003e478
+reportlab\tools\pythonpoint\styles\horrible.py	3f49e5dbb4da5b97101ad534cf11d398	# 2385 2004-06-17 15:26:05Z
+reportlab\tools\pythonpoint\styles\htu.py	7151587444aee681c47662d600e4f57b
+reportlab\tools\pythonpoint\styles\modern.py	3e64c372ea0b72cf48baf2ffaf1733e7	# 2385 2004-06-17 15:26:05Z
+reportlab\tools\pythonpoint\styles\projection.py	3752069aef47b44b0863cef44483eb29
+reportlab\tools\pythonpoint\styles\standard.py	0c737dfe7e916f0b0fe09e61722ff39b
+reportlab\tools\pythonpoint\styles\__init__.py	978e9bfafa1b908c95eb13aa7411aa23
+reportlab\tools\utils\add_bleed.py	aae5faa7b20799e619d6443e6961cc04
+reportlab\tools\utils\dumpttf.py	bbffcf891545de2855d82de96de38ef6
+c:\temp\ReportLab_tmp\rlbuild_area\dist\reportlab_2_1\MANIFEST.txt	82a2dc784b8b5fda0fcdb648c833cc1c
