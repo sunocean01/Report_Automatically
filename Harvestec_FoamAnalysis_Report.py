@@ -1,6 +1,9 @@
 import datetime
+import json
 import time
 import subprocess
+import qrcode
+import hashlib
 
 
 # pdfmetrics.registerFont(UnicodeCIDFont('STSong-Light'))
@@ -8,7 +11,6 @@ from django.http import HttpResponse
 # from io.cStringIO import StringIO   #Python2 适用
 from io import StringIO
 
-from reportlab.pdfbase import pdfmetrics
 from reportlab.pdfbase.ttfonts import TTFont
 from reportlab.pdfbase import pdfmetrics
 from reportlab.pdfbase.cidfonts import UnicodeCIDFont
@@ -26,6 +28,8 @@ from reportlab.pdfgen import canvas
 from reportlab.pdfgen.canvas import Canvas
 
 from reportlab.graphics.shapes import Drawing, Rect
+from reportlab.graphics.barcode.qr import QrCodeWidget
+from reportlab.graphics import renderPDF
 
 from reportlab.platypus import SimpleDocTemplate, Paragraph, Spacer, Image, Table, TableStyle, PageTemplate, Frame, PageBreak
 
@@ -49,6 +53,27 @@ pdfmetrics.registerFont(TTFont('Impact', r'C:\Windows\Fonts\impact.ttf'))
 # C:\Windows\Fonts\ARIALNI.TTF
 # C:\Windows\Fonts\ariblk.ttf
 
+def create_qr_code(data,canvas):
+    qr_code_widget = QrCodeWidget(data)
+    width, height = A4
+    # 创建一个 Drawing 对象用于容纳 QR Code
+    bounds = qr_code_widget.getBounds()
+    width = bounds[2] - bounds[0]
+    height = bounds[3] - bounds[1]
+    # d = Drawing(width, height)
+    d = Drawing(transform=[100./width,0,0,100./height,0,0])
+    d.add(qr_code_widget)
+
+    # 绘制 QR Code 到 Canvas
+    # renderPDF.draw(d, canvas, (A4[0]-width)/2, (A4[1]-height)/2)  # 调整居中的坐标[^2]
+    renderPDF.draw(d, canvas, 480,740)  # 调整居中的坐标[^2]
+    note = Paragraph(r"Cert. Verif. Numb.")
+    w, h = note.wrap(300, doc.topMargin)
+    note.drawOn(canvas,490,740)
+
+
+    # 保存 PDF 文档
+    # canvas.save()
 def header(canvas, doc):
     styles = styles = getSampleStyleSheet()['Normal']
     header_style = ParagraphStyle(name='headerStyle',
@@ -79,9 +104,22 @@ def header(canvas, doc):
     # canvas.restoreState()
     image_log = 'log.jpg'
     image_slogan = 'slogan.jpg'
+    create_qr_code(data=CertVerifyInfo,canvas=canvas)
     # image.show()
+
     canvas.drawImage(image_log, 20, 750, width=60, height=65)
     canvas.drawImage(image_slogan, 380, 750, width=90, height=70)
+    # canvas.drawImage(img_qrcode,400,760,width=150, height=150)
+
+def footer(canvas, doc):
+    canvas.saveState()
+    # footer_content = Paragraph("HARVESTEC SERVICE CO., LTD", styles)
+    # w, h = footer_content.wrap(doc.width, doc.bottomMargin)
+    # footer_content.drawOn(canvas, doc.leftMargin, h)
+
+    page_num = canvas.getPageNumber()
+    canvas.drawString(500, 15, f"Page:{page_num}")
+    canvas.restoreState()
 def myHeader(doc,styles):
     def header(canvas, doc,styles):
 
@@ -149,7 +187,7 @@ def title(doc, styles):
                                     textColor=(0, 0, 0),
                                     wordWrap='LTR',
                                     alignment=1,
-                                    spaceAfter=10, spaceBefore=10,
+                                    spaceAfter=10, spaceBefore=0,
                                     )
     Title_01 = Paragraph("Certificate", style=Title_01_style)
     content.append(Title_01)
@@ -211,8 +249,7 @@ def basicinfo_table(canvas,doc):
     content.append(table1)
 
 def laterpagehead(canvas, doc):
-    # canvas.saveState()
-    styles = styles = getSampleStyleSheet()['Normal']
+    styles = getSampleStyleSheet()['Normal']
     header_style = ParagraphStyle(name='headerStyle',
                                   parent=styles,  # 继承父类
                                   fontName='Arial-bd',
@@ -241,6 +278,7 @@ def laterpagehead(canvas, doc):
     # canvas.restoreState()
     image_log = 'log.jpg'
     image_slogan = 'slogan.jpg'
+    create_qr_code(data=CertVerifyInfo, canvas=canvas)
     # image.show()
     canvas.drawImage(image_log, 20, 750, width=60, height=65)
     canvas.drawImage(image_slogan, 380, 750, width=90, height=70)
@@ -285,8 +323,8 @@ def laterpagehead(canvas, doc):
                )
     # content.append(table1)
     table1.wrap(700,doc.topMargin)
-    table1.drawOn(canvas,20,660)
-    # canvas.restoreState()
+    table1.drawOn(canvas,20,650)
+    footer(canvas,doc)
 def comp_intro(styles):
     style_tmp = ParagraphStyle(name='intro',
                                     parent=styles,  # 继承父类
@@ -338,6 +376,32 @@ def criteria_table():
                )
     content.append(table)
 
+def tec_disc_table():
+    Sys_Maker = 'KASHIWA'
+    Capty_tank = 'UNKNOWN'
+    Foam_Maker = 'DR.STHAMER'
+    Rating_set = '2%'
+    Rating = '2%'
+    data = [['Technical Descriptions:','', ''],
+            ['No.', 'Technical system  description', 'Data/Info'],
+            ['1', 'Manufacturer of foam system', f'{Sys_Maker}'],
+            ['2', 'Capacity of foam tank', f'{Capty_tank}'],
+            ['3', 'Manufacturer of foam concentrate', f'{Foam_Maker}'],
+            ['4', 'System Mixing rate setting', f'{Rating_set}'],
+            ['5', 'Foam mixing rate [%]', f'{Rating}'],
+            ]
+    table = Table(data, colWidths=[40,260,250],rowHeights=[25]*7)
+    table.setStyle(TableStyle([('GRID', (0, 1), (-1, -1), 1, colors.black),
+                               ('ALIGNMENT', (0, 0), (-1, -1),'LEFT'),
+                               ('VALIGN', (0, 0), (-1, -1),'MIDDLE'),
+                               ('FONTSIZE', (0, 0), (-1, -1),12),
+                               ('FONT', (0, 0), (-1, 0),'Arial-bd'),
+                               ('FONTSIZE', (0, 0), (-1, 0),14),
+                           ]
+                          )
+               )
+    content.append(table)
+
 if __name__ == "__main__":
     pdf_name = r"TemplateSample.pdf"
     PAGESIZE = pagesizes.portrait(pagesizes.A4)
@@ -359,8 +423,9 @@ if __name__ == "__main__":
 
     content.append(PageBreak())
 
-    frame = Frame(doc.leftMargin, doc.bottomMargin, doc.width, doc.height, id='frame1')
-    doc.addPageTemplates([frame])
+    content.append(Spacer(1*cm,3*cm))
+    tec_disc_table()
+
     tmp_style = ParagraphStyle(name='tmp',
                                     parent=styles,  # 继承父类
                                     fontName='Arial-bd',
@@ -368,12 +433,17 @@ if __name__ == "__main__":
                                     textColor=(0, 0, 0),
                                     wordWrap='LTR',
                                     alignment=1,
-                                    spaceAfter=10, spaceBefore=500,
+                                    spaceAfter=10, spaceBefore=0,
                                     )
     Tmp = Paragraph("Temporary Content", style=tmp_style)
-    # w, h = Tmp.wrap(300, 800)
-    # Tmp.drawOn(doc,20,500)
+
     content.append(Tmp)
+
+    content.append(PageBreak())
+    content.append(Paragraph('Test2'))
+    CertVerifyId = hashlib.md5(str(content).encode()).hexdigest()[:16]  # 取前10位作为ID
+    CertVerifyInfo = f"Cert. Verify. Numb.: {CertVerifyId.upper()}"
+    print(CertVerifyInfo)
 
     doc.build(content, onFirstPage=header, onLaterPages=laterpagehead)
     time.sleep(0.5)
